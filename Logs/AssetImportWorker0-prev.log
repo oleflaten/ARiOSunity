@@ -1,0 +1,821 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ole/GitHub/ARiOSunity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52968
+Successfully changed project path to: /Users/ole/GitHub/ARiOSunity
+/Users/ole/GitHub/ARiOSunity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ole/GitHub/ARiOSunity/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-10 21:32:44.541 Unity[53196:1451417] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+2021-03-10 21:32:44.541 Unity[53196:1451417] Metal devices available: 2
+2021-03-10 21:32:44.541 Unity[53196:1451417] 0: AMD Radeon Pro 5500M (high power)
+2021-03-10 21:32:44.541 Unity[53196:1451417] 1: Intel(R) UHD Graphics 630 (low power)
+2021-03-10 21:32:44.543 Unity[53196:1451417] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003084 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.031 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1444 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.9 MB.
+System memory in use after: 119.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 2.455632 ms (FindLiveObjects: 0.214734 ms CreateObjectMapping: 0.064547 ms MarkObjects: 2.066674 ms  DeleteObjects: 0.108377 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0d96e498f3f425048f0860a2a49f78') in 0.015170 seconds
+  Import took 0.018206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1440 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 2.426912 ms (FindLiveObjects: 0.209544 ms CreateObjectMapping: 0.064573 ms MarkObjects: 2.096609 ms  DeleteObjects: 0.054962 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1697.951785 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(d67f7b4d5c0ac4cd1acd98ef01c04833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(d67f7b4d5c0ac4cd1acd98ef01c04833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d6b66bc14f96ba9e346e7e2c5554eb') in 0.005576 seconds
+  Import took 0.008617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.421434 seconds.
+  path: Assets/ARPlacement.cs
+  artifactKey: Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPlacement.cs using Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25c3c458b1dc8cc7af54f18fda66663') in 0.587196 seconds
+  Import took 0.590237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.734912 seconds.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c88692af00aada2d34af3f5e9b61317') in 0.004731 seconds
+  Import took 0.007896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.722850 seconds.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc547e59d1cf528ba5998a1c5aee84be') in 0.004931 seconds
+  Import took 0.008131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.842789 seconds.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8be367037ed657dceab37e5c15b3098') in 0.005040 seconds
+  Import took 0.008107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.331493 seconds.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3337c51e33e187827a65fd72a7905b80') in 0.004497 seconds
+  Import took 0.007525 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1440 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.178268 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.057931 ms MarkObjects: 1.879464 ms  DeleteObjects: 0.057930 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 30.761305 seconds.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(da011d5872ea64f23b49ef237caed765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa7853893677e7f8db03bd9340c0681') in 0.007670 seconds
+  Import took 0.010567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.320516 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(27ae800e900434fbdbac128695ae54c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(27ae800e900434fbdbac128695ae54c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f059d959738644ee928f1623bad3e7e') in 0.001746 seconds
+  Import took 0.004557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.449929 seconds.
+  path: Assets/Materials/Aim.png
+  artifactKey: Guid(51395f5694ce540d9adc5206aa3169c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Aim.png using Guid(51395f5694ce540d9adc5206aa3169c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4413c8f559451f38f6bee3ad9d855350') in 0.785125 seconds
+  Import took 0.788379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.683850 seconds.
+  path: Assets/Materials/Indicator.mat
+  artifactKey: Guid(5224e69dd4236455688b53f1dd0496c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Indicator.mat using Guid(5224e69dd4236455688b53f1dd0496c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b573b4ef1cd2a3694b88d6c5ab3d164e') in 0.996643 seconds
+  Import took 1.000002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.009085 seconds.
+  path: Assets/Models
+  artifactKey: Guid(881318bcc0e7243e98b6d17b0d7069f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(881318bcc0e7243e98b6d17b0d7069f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f845ccd7adb43753d12851d78411c20') in 0.002091 seconds
+  Import took 0.005010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.479488 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Plane1_2048x2048.psd
+  artifactKey: Guid(af4e2cc37395ac040a13828c0a5e95f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Plane1_2048x2048.psd using Guid(af4e2cc37395ac040a13828c0a5e95f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93a08f61f9219c0e6206ac6693d739c') in 2.659538 seconds
+  Import took 2.662907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Plane2_2048x2048.psd
+  artifactKey: Guid(7dc43b82c63c4b043b5452b1f4b51343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Plane2_2048x2048.psd using Guid(7dc43b82c63c4b043b5452b1f4b51343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc898207f22eb0c76bf6b283b003868') in 0.026096 seconds
+  Import took 0.029070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Plane4_2048x2048.psd
+  artifactKey: Guid(ecb33937f3418cb4cb8734e25d49d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Plane4_2048x2048.psd using Guid(ecb33937f3418cb4cb8734e25d49d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b5c1600dbb2800ed6ebd64d90b5734') in 0.014941 seconds
+  Import took 0.018077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Prop1.psd
+  artifactKey: Guid(f187fa1cf1370a84c996a55a228e0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Prop1.psd using Guid(f187fa1cf1370a84c996a55a228e0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e35cdad1764ca4d507e8f7f71bb5eab') in 0.009319 seconds
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Plane3_2048x2048.psd
+  artifactKey: Guid(a0dfee275716dc4419c5a2f428fdbe81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Plane3_2048x2048.psd using Guid(a0dfee275716dc4419c5a2f428fdbe81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc16ecd12e822810d814097202b376') in 0.016821 seconds
+  Import took 0.020147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Prop1Blur.psd
+  artifactKey: Guid(f89f5d8457950bf419cb1de76473db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Prop1Blur.psd using Guid(f89f5d8457950bf419cb1de76473db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bad935d34443cd522af81f2781684e0') in 0.015575 seconds
+  Import took 0.018520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Plane_UV_2048x2048.psd
+  artifactKey: Guid(b9981e9c28ec4ed4eb777c77398060f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Plane_UV_2048x2048.psd using Guid(b9981e9c28ec4ed4eb777c77398060f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108135e80c5a080b6106b794e6ec09df') in 0.016344 seconds
+  Import took 0.019249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/AwesomeCartoonPlanes/Images/Prop1Blur.psd
+  artifactKey: Guid(f89f5d8457950bf419cb1de76473db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Images/Prop1Blur.psd using Guid(f89f5d8457950bf419cb1de76473db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bad935d34443cd522af81f2781684e0') in 0.015129 seconds
+  Import took 0.018048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.811823 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane1_2048x2048.mat
+  artifactKey: Guid(421e2c6f2c6e454408632e9782cf744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane1_2048x2048.mat using Guid(421e2c6f2c6e454408632e9782cf744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b7d0c45d07d68e101e6c55941a8a13') in 0.334126 seconds
+  Import took 0.337303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Prop1.mat
+  artifactKey: Guid(824229c5065ac9e4aa0834586acc7c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Prop1.mat using Guid(824229c5065ac9e4aa0834586acc7c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ce3893898af4d3fd3cc9afbd1ac21b') in 0.012873 seconds
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane4_2048x2048.mat
+  artifactKey: Guid(9e1c5a2f69aceaa4390cbbe5f498657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane4_2048x2048.mat using Guid(9e1c5a2f69aceaa4390cbbe5f498657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7949100bc26112159637bffbe77ec283') in 0.028600 seconds
+  Import took 0.031494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane2_2048x2048.mat
+  artifactKey: Guid(b6bccb5d2d4ed7b4d99b27cb8af082d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane2_2048x2048.mat using Guid(b6bccb5d2d4ed7b4d99b27cb8af082d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febbe59eb4752d9c16fbf21d5e7d757a') in 0.017749 seconds
+  Import took 0.020696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane3_2048x2048.mat
+  artifactKey: Guid(03b7b6b9080d16b40b2fb6dc579ec515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane3_2048x2048.mat using Guid(03b7b6b9080d16b40b2fb6dc579ec515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1268fefe7f0c2014aa0f63ab33c6f873') in 0.016782 seconds
+  Import took 0.019858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Prop1Blur.mat
+  artifactKey: Guid(c717a6e8f52f0ec458e33014fc68979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Prop1Blur.mat using Guid(c717a6e8f52f0ec458e33014fc68979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683826db3ecdfc12cbee7f25d7e23a07') in 0.313533 seconds
+  Import took 0.316657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.346409 seconds.
+  path: Assets/AwesomeCartoonPlanes/Models/Plane1.fbx
+  artifactKey: Guid(171b2af5fc3d1514da2fdad77b8b472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Models/Plane1.fbx using Guid(171b2af5fc3d1514da2fdad77b8b472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142334c5cb3711b68ef7b35dcec267c9') in 0.754350 seconds
+  Import took 0.757816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/AwesomeCartoonPlanes/Models/Prop1Blur.fbx
+  artifactKey: Guid(dcc7dbcc616b3bc4196885e7819573b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Models/Prop1Blur.fbx using Guid(dcc7dbcc616b3bc4196885e7819573b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18fc59ab76de9fce70ecc0e87e047ba') in 0.027753 seconds
+  Import took 0.031123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AwesomeCartoonPlanes/Models/Prop1.fbx
+  artifactKey: Guid(87e3a0e4c9130594d815367873d264d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Models/Prop1.fbx using Guid(87e3a0e4c9130594d815367873d264d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad066b401a3cafe74152cd3255d6f144') in 0.024392 seconds
+  Import took 0.027379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.376941 seconds.
+  path: Assets/AwesomeCartoonPlanes/Models/Materials/Material.mat
+  artifactKey: Guid(7877b4cfd42ea4f388539a7ee9d5f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Models/Materials/Material.mat using Guid(7877b4cfd42ea4f388539a7ee9d5f92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40fdff78930619f40359779646f0f25') in 0.012481 seconds
+  Import took 0.015666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AwesomeCartoonPlanes/Models/Materials/No Name.mat
+  artifactKey: Guid(1f808f757278348608584bad651f422d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Models/Materials/No Name.mat using Guid(1f808f757278348608584bad651f422d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4607a3ce1ddadb5bcb062ca5792055ee') in 0.013011 seconds
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.102897 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane1.prefab
+  artifactKey: Guid(bd16a121ccdf0674daacc3277d88c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane1.prefab using Guid(bd16a121ccdf0674daacc3277d88c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d74c2d921227a745d9ccd418049e680') in 0.268633 seconds
+  Import took 0.272458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane4.prefab
+  artifactKey: Guid(2d98fe4a51b6667469e3c9a7a3ce1050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane4.prefab using Guid(2d98fe4a51b6667469e3c9a7a3ce1050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38151f7f9cebe6524da639d7bf449680') in 0.039422 seconds
+  Import took 0.042454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane2.prefab
+  artifactKey: Guid(f59be258fa0c1bc409e8a82f577dea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane2.prefab using Guid(f59be258fa0c1bc409e8a82f577dea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e195f9b743b723034833e75d9ef62ea0') in 0.032955 seconds
+  Import took 0.036211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane3.prefab
+  artifactKey: Guid(3a6adef6dcab3db498c90e7a06b0ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane3.prefab using Guid(3a6adef6dcab3db498c90e7a06b0ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd513400afe0e3329c95f3bf6316f15b4') in 0.030614 seconds
+  Import took 0.033783 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 150.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 2.415911 ms (FindLiveObjects: 0.224409 ms CreateObjectMapping: 0.066378 ms MarkObjects: 2.064932 ms  DeleteObjects: 0.059042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 199.530946 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane1.prefab
+  artifactKey: Guid(bd16a121ccdf0674daacc3277d88c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane1.prefab using Guid(bd16a121ccdf0674daacc3277d88c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaf92cfad5af90a28e2c6ce4588baba') in 0.118357 seconds
+  Import took 0.121863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane4.prefab
+  artifactKey: Guid(2d98fe4a51b6667469e3c9a7a3ce1050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane4.prefab using Guid(2d98fe4a51b6667469e3c9a7a3ce1050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bf82b70fd6c34625930fbafba59193') in 0.035772 seconds
+  Import took 0.039158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane2.prefab
+  artifactKey: Guid(f59be258fa0c1bc409e8a82f577dea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane2.prefab using Guid(f59be258fa0c1bc409e8a82f577dea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42837d9ec992406e1a9c52141268009f') in 0.034741 seconds
+  Import took 0.037875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AwesomeCartoonPlanes/Prefabs/Plane3.prefab
+  artifactKey: Guid(3a6adef6dcab3db498c90e7a06b0ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Prefabs/Plane3.prefab using Guid(3a6adef6dcab3db498c90e7a06b0ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e3bf6a9c351edf2d15cc0900e22d3') in 0.034382 seconds
+  Import took 0.037571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.434784 seconds.
+  path: Assets/AwesomeCartoonPlanes/Scripts/Plane.cs
+  artifactKey: Guid(a33f5c96fdd2944499631e41393e06c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Scripts/Plane.cs using Guid(a33f5c96fdd2944499631e41393e06c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6edee61e5522e6b4e8f0340636a949d') in 0.003078 seconds
+  Import took 0.006044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001923 seconds.
+  path: Assets/AwesomeCartoonPlanes/Scripts/Plane.cs
+  artifactKey: Guid(a33f5c96fdd2944499631e41393e06c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Scripts/Plane.cs using Guid(a33f5c96fdd2944499631e41393e06c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6edee61e5522e6b4e8f0340636a949d') in 0.001513 seconds
+  Import took 0.004316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455554 seconds.
+  path: Assets/AwesomeCartoonPlanes/Scripts/RotateCamera.cs
+  artifactKey: Guid(c576f9eb77d606b40ad3c7c52723abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Scripts/RotateCamera.cs using Guid(c576f9eb77d606b40ad3c7c52723abdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd55c66880913dbaef0f09a6be36ffef') in 0.001798 seconds
+  Import took 0.004924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.849154 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11009c250bd9221959ae8579db201fbe') in 0.003274 seconds
+  Import took 0.006383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.834879 seconds.
+  path: Assets/AwesomeCartoonPlanes/Scenes/PlanesSettings.lighting
+  artifactKey: Guid(9940bc6c6e9674619877fe38e2b1e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Scenes/PlanesSettings.lighting using Guid(9940bc6c6e9674619877fe38e2b1e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '6989f11c8546de3ae92f358224e03475') in 0.206892 seconds
+  Import took 0.210108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.338676 seconds.
+  path: Assets/AwesomeCartoonPlanes/Scenes/Planes.unity
+  artifactKey: Guid(cca018e4bdec9164dbd9eaa404d0e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Scenes/Planes.unity using Guid(cca018e4bdec9164dbd9eaa404d0e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d60c532dfcfc6a5de9498d9548b32f7') in 0.002562 seconds
+  Import took 0.005653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.789315 seconds.
+  path: Assets/Models/Plane1.prefab
+  artifactKey: Guid(b9db3e02070bf4ed0b96b81fc7a665a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane1.prefab using Guid(b9db3e02070bf4ed0b96b81fc7a665a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc62ec9b4f5d8aea7230cda24d75377') in 0.037391 seconds
+  Import took 0.041307 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1440 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 155.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 2.419134 ms (FindLiveObjects: 0.223745 ms CreateObjectMapping: 0.064187 ms MarkObjects: 2.064368 ms  DeleteObjects: 0.065581 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 129.858243 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane1_2048x2048.mat
+  artifactKey: Guid(421e2c6f2c6e454408632e9782cf744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane1_2048x2048.mat using Guid(421e2c6f2c6e454408632e9782cf744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f51987da763015848ab25058068ce6') in 0.100947 seconds
+  Import took 0.104287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Prop1.mat
+  artifactKey: Guid(824229c5065ac9e4aa0834586acc7c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Prop1.mat using Guid(824229c5065ac9e4aa0834586acc7c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aacd859dc78129752aa6cafa7eaceba') in 0.014626 seconds
+  Import took 0.017750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane4_2048x2048.mat
+  artifactKey: Guid(9e1c5a2f69aceaa4390cbbe5f498657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane4_2048x2048.mat using Guid(9e1c5a2f69aceaa4390cbbe5f498657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67ee01eade5bcf58fa8e1f1cb029c52') in 0.020187 seconds
+  Import took 0.024080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane2_2048x2048.mat
+  artifactKey: Guid(b6bccb5d2d4ed7b4d99b27cb8af082d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane2_2048x2048.mat using Guid(b6bccb5d2d4ed7b4d99b27cb8af082d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc738bee5f0940e49f0eb08b13c536b2') in 0.020693 seconds
+  Import took 0.023977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Plane3_2048x2048.mat
+  artifactKey: Guid(03b7b6b9080d16b40b2fb6dc579ec515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Plane3_2048x2048.mat using Guid(03b7b6b9080d16b40b2fb6dc579ec515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57013332a6f96b50e9f346914c05caa6') in 0.020337 seconds
+  Import took 0.023364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials/Prop1Blur.mat
+  artifactKey: Guid(c717a6e8f52f0ec458e33014fc68979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials/Prop1Blur.mat using Guid(c717a6e8f52f0ec458e33014fc68979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1784a9fbb47d2941c963bf98e46f8be5') in 0.021885 seconds
+  Import took 0.024880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.035155 seconds.
+  path: Assets/Models/Plane1.prefab
+  artifactKey: Guid(b9db3e02070bf4ed0b96b81fc7a665a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane1.prefab using Guid(b9db3e02070bf4ed0b96b81fc7a665a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabb4cc0814063f6427e237e179fc9e5') in 0.057317 seconds
+  Import took 0.060770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.141937 seconds.
+  path: Assets/AwesomeCartoonPlanes/Materials
+  artifactKey: Guid(236329979dc90474396a37da36baee2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Materials using Guid(236329979dc90474396a37da36baee2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c16ba825f50ce4ff01642e9683e378') in 0.001186 seconds
+  Import took 0.004001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.337066 seconds.
+  path: Assets/Materials/Indicator.mat
+  artifactKey: Guid(5224e69dd4236455688b53f1dd0496c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Indicator.mat using Guid(5224e69dd4236455688b53f1dd0496c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee765e9602f77b8ea84a35d995d05d8') in 0.164202 seconds
+  Import took 0.167757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.535022 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(e4d0137a983c24bf1a47d7042f85da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(e4d0137a983c24bf1a47d7042f85da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec9e141641dec86b4f65e608096c4f') in 0.026160 seconds
+  Import took 0.029446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.192608 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736e2ba69c72fed7fd22ce995fd0765') in 0.038392 seconds
+  Import took 0.042318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.582962 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f34ad15da5fd55c96f99efbb3ed1668') in 0.033145 seconds
+  Import took 0.036976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352113 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd6a29dca54d9f470bbc971858d4d1') in 0.034907 seconds
+  Import took 0.038443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778260 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc3dccd80f2ee3613c59fd8140c693') in 0.033864 seconds
+  Import took 0.037392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.603499 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c21a0e9c7d9ce9ea755df02d4927239') in 0.033986 seconds
+  Import took 0.037359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957612 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf74e64bf4a9f9eb4c0c63eef70de89') in 0.035723 seconds
+  Import took 0.039223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.057842 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f8c7f363ae0817775a2e66148d31b9') in 0.033520 seconds
+  Import took 0.036936 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.9 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.789978 ms (FindLiveObjects: 0.205341 ms CreateObjectMapping: 0.064070 ms MarkObjects: 2.461508 ms  DeleteObjects: 0.057980 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2387.548182 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903263aef663dda6ddbc688b1609e6d4') in 0.052220 seconds
+  Import took 0.055786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.537794 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d2ab8c3c6fa1889305652ef9503bca') in 0.034270 seconds
+  Import took 0.037867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.405077 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb0d6fd041c88209574c1c7e08d9038') in 0.038108 seconds
+  Import took 0.041563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.299720 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fd4dfaf5f832b0b9df5eba411eed3f') in 0.032847 seconds
+  Import took 0.036765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.216011 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf76360bd91b97e50fdad90bfa174cb') in 0.032826 seconds
+  Import took 0.036234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.728806 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9197b58c735775b58a5ac931704f65') in 0.030942 seconds
+  Import took 0.034649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.920218 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ef0fb9f2147410c3fb612fbfdce801') in 0.032028 seconds
+  Import took 0.035878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.383408 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393f9566a14793a325155270499731e1') in 0.031000 seconds
+  Import took 0.034597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.393469 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4cd8e3cb4c4e53a5f40967dfa20d16') in 0.031514 seconds
+  Import took 0.035144 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.694374 ms (FindLiveObjects: 0.229326 ms CreateObjectMapping: 0.065622 ms MarkObjects: 2.333559 ms  DeleteObjects: 0.064489 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.687463 ms (FindLiveObjects: 0.200231 ms CreateObjectMapping: 0.061773 ms MarkObjects: 2.369390 ms  DeleteObjects: 0.054947 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 483.684429 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4740501f1295b7617795bcfed0fdea') in 0.042188 seconds
+  Import took 0.046572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.384852 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3909e0aeeba829888afb24364b633bab') in 0.033512 seconds
+  Import took 0.037064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.523863 seconds.
+  path: Assets/Models/Plane.prefab
+  artifactKey: Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plane.prefab using Guid(4c2b8c8d709f64c34ab784fc9e850861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04e0a373ae16a0c9231fdae05d2c36b') in 0.037251 seconds
+  Import took 0.040913 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.3 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.703454 ms (FindLiveObjects: 0.217197 ms CreateObjectMapping: 0.059835 ms MarkObjects: 2.364267 ms  DeleteObjects: 0.060650 ms)
+
